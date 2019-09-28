@@ -84,7 +84,7 @@ li a, #navbar, li a:before, #navbar:before, #navbar:after,li a:after {
   width: 0%;
   content: '';
   color: white;
-  background: white;
+  background: #aaa;
   height: 1px;
 }
 #navbar:after {
@@ -96,25 +96,28 @@ li a, #navbar, li a:before, #navbar:before, #navbar:after,li a:after {
   width: 0%;
   content: '';
   color: white;
-  background: white;
+  background: #aaa;
   height: 1px;
 }
 .stroke li a:hover:after, #navbar:hover:after {
   width: 66%;
 }
+
 .a1
 {
     color: white;
 }
 
 
-li a:hover:not(.active)
+li a:hover
 {
   background-color: #000;
+  color: #aaa;
 }
 
 .active
 {
+  color: #fff;
   background-color: #000;
   font-size: 27px;
 }
