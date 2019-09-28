@@ -3,7 +3,6 @@
     font-family: molot;
     src: url(Molot.otf);
 }
-    
 body
 {
     color: white;
@@ -70,6 +69,39 @@ li a
     padding: 0px 34px;
     text-decoration: none;
 }
+li a, #navbar, li a:before, #navbar:before, #navbar:after,li a:after {
+    transition: all .5s;
+}
+.stroke li a, #navbar {
+  position: relative;
+}
+.stroke li a:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '';
+  color: white;
+  background: white;
+  height: 1px;
+}
+#navbar:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '';
+  color: white;
+  background: white;
+  height: 1px;
+}
+.stroke li a:hover:after, #navbar:hover:after {
+  width: 66%;
+}
 .a1
 {
     color: white;
@@ -79,7 +111,6 @@ li a
 li a:hover:not(.active)
 {
   background-color: #000;
-  color: yellow;
 }
 
 .active
@@ -106,6 +137,7 @@ div.gallery {
 
 div.gallery:hover {
   border: 0px solid #777;
+  /*would be nice to have a hover function that opens between molotov + models the picture between*/
 }
 
 div.gallery img {
