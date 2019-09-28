@@ -13,6 +13,18 @@ body
     background-attachment: fixed;
     text-align: center;
 }
+@media (min-width: 500px) {
+    .ul1 {
+         font-size: 60px;
+        }
+    }
+
+@media (max-width: 499px) {
+    .ul1 {
+        font-size: 35px;
+        padding: 0px;
+    }
+}
 
 h1
 {
@@ -40,15 +52,14 @@ ul
     top: 0;
     color: white;
     font-family: molot;
-    font-size: 27px;
 }
 
 .ul1
 {
     position: fixed;
     top: 0;
-    padding: 0px 10%;
     width: 100%;
+    height: 70px;
     left: 0px;
 }
 
@@ -72,10 +83,11 @@ li a
 li a, #navbar, li a:before, #navbar:before, #navbar:after,li a:after {
     transition: all .5s;
 }
-.stroke li a, #navbar {
+.nav li a, #navbar {
   position: relative;
+  font-size: 27px;
 }
-.stroke li a:after {
+.nav li a:after {
   position: absolute;
   top: 0;
   left: 0;
@@ -99,7 +111,7 @@ li a, #navbar, li a:before, #navbar:before, #navbar:after,li a:after {
   background: #aaa;
   height: 1px;
 }
-.stroke li a:hover:after, #navbar:hover:after {
+.nav li a:hover:after, #navbar:hover:after {
   width: 66%;
 }
 
