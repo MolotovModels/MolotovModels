@@ -121,12 +121,10 @@ li a, #navbar, li a:before, #navbar:before, #navbar:after,li a:after {
 }
 
 
-li a:hover
+li:hover
 {
-  background-color: #000;
-  color: #aaa;
+  opacity: 0.7;
 }
-
 .active
 {
   color: #fff;
