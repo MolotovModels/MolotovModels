@@ -38,6 +38,13 @@ p
     font-family: molot;
     font-size: 20px;
 }
+
+a
+{
+    color: white;
+    font-family: molot;
+    font-size: 20px;
+}
 ul
 {
     list-style-type: none;
