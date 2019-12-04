@@ -13,6 +13,11 @@ body
     background-attachment: fixed;
     text-align: center;
 }
+
+a {
+    color: grey;
+    text-decoration: none;
+}
 @media (min-width: 500px) {
     .ul1 {
          font-size: 60px;
