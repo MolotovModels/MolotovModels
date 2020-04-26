@@ -3,6 +3,16 @@
     font-family: molot;
     src: url(Molot.otf);
 }
+
+.mae-bg {
+    background-color: black;
+    background-image: url("src/mae1.jpg");
+    background-size: 100%;
+    background-position: 0% 50%;
+    background-attachment: fixed;
+    text-align: center;
+}
+
 body
 {
     color: white;
