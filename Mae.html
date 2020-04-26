@@ -168,6 +168,19 @@
         <img src="https://sqvjmw.am.files.1drv.com/y4mdgGIAfoZ1PAsjIvEW6347S4VgONp9UFMIsgVSO4tXK1D9ENdtJKsN4JaU4MJ1fykce9CjGZCvEnMD7Vb0DC4HGGOzunDuP6sTOxXhoTyfJngBeLhtXSa-zFjxxlZENh6_oGjuWwBtUY6YmWSykkBwr7lD9vj_O20sOWFL1QLDDChirvf4zz6quv8zzMBha_twoAzzhrgUPXfPrS_2Ezj4A?width=5747&height=3231&cropmode=none" width="5747" height="3231" />
         </div>
         <a href="index.html">The "home" page</a><br>
-
+    
+        <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-50px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+        </script>
     </body>
+    
 </html>
